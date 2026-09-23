@@ -1,3 +1,5 @@
+package org.example;
+
 public class Pessoa {
     private double peso;
     private double altura;
@@ -54,7 +56,7 @@ public class Pessoa {
             }
 
             else if (imc < 27.3){
-                return "maginalmente acima do peso";
+                return "marginalmente acima do peso";
             }
 
             else if (imc < 32.3){
@@ -62,7 +64,7 @@ public class Pessoa {
             }
 
             else {
-                return "obeso";
+                return "obesa";
             }
 
         }
